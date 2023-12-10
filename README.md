@@ -47,8 +47,9 @@ Under the function named `generate_car_matrix` write a logic that takes the `dat
 - dataframe should have values from `car` column
 - diagonal values should be 0.
 
-Sample result dataframe:\
- ![Task 1 Question 1](readme_images/task1-q1.png)
+<img width="450" alt="image" src="https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/db062cad-6d01-465c-8d01-47f454e33735">
+
+ 
 
 
 ## Question 2: Car Type Count Calculation
@@ -58,13 +59,22 @@ Create a Python function named `get_type_count` that takes the `dataset-1.csv` a
 - `high` for values greater than 25.
 
 Calculate the count of occurrences for each `car_type` category and return the result as a dictionary. Sort the dictionary alphabetically based on keys.
+<img width="243" alt="image" src="https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/59daa69a-95e4-4075-9ce5-df0294a3d19c">
+
 
 ## Question 3: Bus Count Index Retrieval
 
 Create a Python function named `get_bus_indexes` that takes the `dataset-1.csv` as a DataFrame. The function should identify and return the indices as a list (sorted in ascending order) where the `bus` values are greater than twice the mean value of the `bus` column in the DataFrame.
 
+
+![image](https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/a3de5ecd-ba88-408c-95be-d8467fe08ffb)
+
+
 ## Question 4: Route Filtering
 Create a python function `filter_routes` that takes the `dataset-1.csv` as a DataFrame. The function should return the sorted list of values of column `route` for which the average of values of `truck` column is greater than 7.
+
+![image](https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/9e4350e0-bc3d-4f2d-9022-2e90f6f9e6de)
+
 
 ## Question 5: Matrix Value Modification
 
@@ -74,8 +84,8 @@ Create a Python function named `multiply_matrix` that takes the resulting DataFr
 
 The function should return the modified DataFrame which has values rounded to 1 decimal place.
 
-Sample result dataframe:\
- ![Task 1 Question 5](readme_images/task1-q5.png)
+
+
 
 ## Question 6: Time Check
 
@@ -93,7 +103,8 @@ Create a function named `calculate_distance_matrix` that takes the `dataset-3.cs
 The resulting DataFrame should have cumulative distances along known routes, with diagonal values set to 0. If distances between toll locations A to B and B to C are known, then the distance from A to C should be the sum of these distances. Ensure the matrix is symmetric, accounting for bidirectional distances between toll locations (i.e. A to B is equal to B to A). 
 
 Sample result dataframe:\
- ![Task 2 Question 1](readme_images/task2-q1.png)
+
+<img width="424" alt="image" src="https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/d26963a1-b092-4321-92b8-d7681618b4cb">
 
 ## Question 2: Unroll Distance Matrix
 
@@ -101,11 +112,17 @@ Create a function `unroll_distance_matrix` that takes the DataFrame created in Q
 
 All the combinations except for same `id_start` to `id_end` must be present in the rows with their distance values from the input DataFrame.
 
+<img width="219" alt="image" src="https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/078f20da-0c97-4480-84ee-de0dec910884">
+
+
 ## Question 3: Finding IDs within Percentage Threshold
 
 Create a function `find_ids_within_ten_percentage_threshold` that takes the DataFrame created in Question 2 and a reference value from the `id_start` column as an integer.
 
 Calculate average distance for the reference value given as an input and return a sorted list of values from `id_start` column which lie within 10% (including ceiling and floor) of the reference value's average.
+
+<img width="94" alt="image" src="https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/cd197bc7-3be9-4f18-9e76-c5283040734a">
+
 
 ## Question 4: Calculate Toll Rate
 
@@ -118,8 +135,9 @@ The resulting DataFrame should add 5 columns to the input DataFrame: `moto`, `ca
 - 2.2 for `bus`
 - 3.6 for `truck`
 
-Sample result dataframe:\
- ![Task 2 Question 4](readme_images/task2-q4.png)
+
+<img width="435" alt="image" src="https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/516e52a7-a149-4f03-bd78-584c2b86d8f2">
+
 
 ## Question 5: Calculate Time-Based Toll Rates
 
@@ -140,6 +158,11 @@ Modify the values of vehicle columns according to the following time ranges:
 - Apply a constant discount factor of 0.7 for all times.
 
 For each unique (`id_start`, `id_end`) pair, cover a full 24-hour period (from 12:00:00 AM to 11:59:59 PM) and span all 7 days of the week (from Monday to Sunday).
+
+
+
+![image](https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/07214f0e-04a0-4377-b4aa-b32a5e4cc563)
+
 
 Sample result dataframe:\
  ![Task 2 Question 5](readme_images/task2-q5.png)
