@@ -88,8 +88,6 @@ The function should return the modified DataFrame which has values rounded to 1 
 <img width="456" alt="image" src="https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/901032b1-5a2c-498d-9439-9378bf6ed5e9">
 
 
-
-
 ## Question 6: Time Check
 
 You are given a dataset, `dataset-2.csv`, containing columns `id`, `id_2`, and timestamp (`startDay`, `startTime`, `endDay`, `endTime`). The goal is to verify the completeness of the time data by checking whether the timestamps for each unique (`id`, `id_2`) pair cover a full 24-hour period (from 12:00:00 AM to 11:59:59 PM) and span all 7 days of the week (from Monday to Sunday).
@@ -165,7 +163,3 @@ For each unique (`id_start`, `id_end`) pair, cover a full 24-hour period (from 1
 
 
 ![image](https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/07214f0e-04a0-4377-b4aa-b32a5e4cc563)
-
-
-Sample result dataframe:\
- ![Task 2 Question 5](readme_images/task2-q5.png)
