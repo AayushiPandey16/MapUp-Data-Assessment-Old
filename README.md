@@ -59,6 +59,7 @@ Create a Python function named `get_type_count` that takes the `dataset-1.csv` a
 - `high` for values greater than 25.
 
 Calculate the count of occurrences for each `car_type` category and return the result as a dictionary. Sort the dictionary alphabetically based on keys.
+
 <img width="243" alt="image" src="https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/59daa69a-95e4-4075-9ce5-df0294a3d19c">
 
 
@@ -83,6 +84,8 @@ Create a Python function named `multiply_matrix` that takes the resulting DataFr
 - If a value is 20 or less, multiply those values by 1.25.
 
 The function should return the modified DataFrame which has values rounded to 1 decimal place.
+
+<img width="456" alt="image" src="https://github.com/AayushiPandey16/MapUp-Data-Assessment-F/assets/65387200/901032b1-5a2c-498d-9439-9378bf6ed5e9">
 
 
 
